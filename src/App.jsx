@@ -1,7 +1,12 @@
 import React from "react";
+import ToDo from "./components/ToDo/ToDo";
 
 const App = () => {
-  return <div>App</div>;
+  return (
+    <>
+      <ToDo />
+    </>
+  );
 };
 
 export default App;
